@@ -11,6 +11,23 @@
 
 *Stop wasting time on boilerplate. Start building features.*
 
+[Quick Run](#-quick-run) • [Quick Start](#-quick-start) • [Features](#-features) • [Templates](#-templates) • [Documentation](#-documentation) • [Examples](#-examples)
+
+## 🚀 Quick Run
+
+Use this to run the CLI (recommended):
+
+```bash
+npx create-frontend-server my-app
+```
+
+Or install globally to use the command directly:
+
+```bash
+npm i -g create-frontend-server
+create-frontend-server my-app
+```
+
 [Quick Start](#-quick-start) • [Features](#-features) • [Templates](#-templates) • [Documentation](#-documentation) • [Examples](#-examples)
 
 </div>
