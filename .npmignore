@@ -1,6 +1,3 @@
-# Source files
-src/
-
 # Tests
 tests/
 *.test.js

@@ -7,7 +7,7 @@
 [![npm version](https://img.shields.io/npm/v/create-frontend-app.svg?style=flat-square)](https://www.npmjs.com/package/create-frontend-app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Node Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen?style=flat-square)](https://nodejs.org)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/yourusername/create-frontend-app/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/gandharrdotexe/create-frontend-app/pulls)
 
 *Stop wasting time on boilerplate. Start building features.*
 
@@ -840,7 +840,7 @@ npm install
 1. Make sure you're using Node.js 16 or higher: `node --version`
 2. Update npm to the latest version: `npm install -g npm@latest`
 3. Try running with verbose logging: `npx create-frontend-app my-app --verbose`
-4. Check our [GitHub Issues](https://github.com/yourusername/create-frontend-app/issues)
+4. Check our [GitHub Issues](https://github.com/gandharrdotexe/create-frontend-app/issues)
 5. Create a new issue with your error message and system info
 </details>
 
@@ -871,20 +871,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Get Help
 
-[![Documentation](https://img.shields.io/badge/docs-read%20now-blue?style=for-the-badge)](https://github.com/yourusername/create-frontend-app)
-[![Issues](https://img.shields.io/badge/issues-report%20bug-red?style=for-the-badge)](https://github.com/yourusername/create-frontend-app/issues)
-[![Discussions](https://img.shields.io/badge/discussions-join%20chat-green?style=for-the-badge)](https://github.com/yourusername/create-frontend-app/discussions)
+[![Documentation](https://img.shields.io/badge/docs-read%20now-blue?style=for-the-badge)](https://github.com/gandharrdotexe/create-frontend-app)
+[![Issues](https://img.shields.io/badge/issues-report%20bug-red?style=for-the-badge)](https://github.com/gandharrdotexe/create-frontend-app/issues)
+[![Discussions](https://img.shields.io/badge/discussions-join%20chat-green?style=for-the-badge)](https://github.com/gandharrdotexe/create-frontend-app/discussions)
 
 </div>
 
 ### 📚 Resources
 
-- 📖 [Full Documentation](https://github.com/yourusername/create-frontend-app)
+- 📖 [Full Documentation](https://github.com/gandharrdotexe/create-frontend-app)
 - 🚀 [Quick Start Guide](QUICKSTART.md)
 - 🔧 [Development Setup](SETUP.md)
 - ✨ [Feature List](FEATURES.md)
-- 🐛 [Issue Tracker](https://github.com/yourusername/create-frontend-app/issues)
-- 💬 [Discussions Forum](https://github.com/yourusername/create-frontend-app/discussions)
+- 🐛 [Issue Tracker](https://github.com/gandharrdotexe/create-frontend-app/issues)
+- 💬 [Discussions Forum](https://github.com/gandharrdotexe/create-frontend-app/discussions)
 
 ### 🌟 Show Your Support
 
@@ -918,9 +918,9 @@ Want to help? Check our [Contributing Guide](#-contributing)!
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/gandharrdotexe/frontend-scaffold-cli?style=social)
+![GitHub stars](https://img.shields.io/github/stars/gandharrdotexe/create-frontend-app?style=social)
 ![npm downloads](https://img.shields.io/npm/dm/create-frontend-app?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/gandharrdotexe/frontend-scaffold-cli?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/gandharrdotexe/create-frontend-app?style=flat-square)
 
 </div>
 

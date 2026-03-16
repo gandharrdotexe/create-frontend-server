@@ -3,15 +3,13 @@
     "version": "1.0.0",
     "description": "A CLI tool to scaffold modern frontend applications with popular frameworks and tools",
     "type": "module",
-    "main": "dist/index.js",
+    "main": "bin/cli.js",
     "bin": {
       "create-frontend-app": "./bin/cli.js"
     },
     "scripts": {
       "dev": "node bin/cli.js",
-      "build": "node build.js",
-      "test": "echo \"Tests not yet implemented\"",
-      "prepublishOnly": "npm run build"
+      "test": "echo \"Tests not yet implemented\""
     },
     "keywords": [
       "cli",
@@ -24,7 +22,7 @@
       "tailwind",
       "typescript"
     ],
-    "author": "Your Name",
+    "author": "Gandhar Bagde",
     "license": "MIT",
     "engines": {
       "node": ">=16.0.0"
