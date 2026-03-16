@@ -1,10 +1,10 @@
 <div align="center">
 
-# create-frontend-app
+# create-frontend-server
 
 🚀 **The Ultimate Frontend Project Scaffolding Tool**
 
-[![npm version](https://img.shields.io/npm/v/create-frontend-app.svg?style=flat-square)](https://www.npmjs.com/package/create-frontend-app)
+[![npm version](https://img.shields.io/npm/v/create-frontend-server.svg?style=flat-square)](https://www.npmjs.com/package/create-frontend-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Node Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen?style=flat-square)](https://nodejs.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/gandharrdotexe/create-frontend-app/pulls)
@@ -19,7 +19,7 @@
 
 ## 📑 Table of Contents
 
-- [Why create-frontend-app?](#-why-create-frontend-app)
+- [Why create-frontend-server?](#-why-create-frontend-server)
 - [Features](#-features)
 - [Quick Start](#-quick-start)
 - [Templates](#-templates)
@@ -37,9 +37,9 @@
 
 ---
 
-## 🎯 Why create-frontend-app?
+## 🎯 Why create-frontend-server?
 
-Setting up a modern frontend project shouldn't take hours. **create-frontend-app** gives you a production-ready project in under 2 minutes with:
+Setting up a modern frontend project shouldn't take hours. **create-frontend-server** gives you a production-ready project in under 2 minutes with:
 
 - ✅ Your choice of framework (React, Next.js, Vue, and more)
 - ✅ TypeScript configured correctly
@@ -84,7 +84,7 @@ Setting up a modern frontend project shouldn't take hours. **create-frontend-app
 ### One Command to Rule Them All
 
 ```bash
-npx create-frontend-app my-app
+npx create-frontend-server my-app
 ```
 
 That's it! In under 2 minutes, you'll have a fully configured project ready to go.
@@ -152,7 +152,7 @@ Open [http://localhost:5173](http://localhost:5173) and start building! 🎉
 Skip the questions and get started instantly with our battle-tested templates:
 
 ```bash
-npx create-frontend-app my-app --template <template-name>
+npx create-frontend-server my-app --template <template-name>
 ```
 
 ### Available Templates
@@ -190,7 +190,7 @@ Perfect for teams that want everything configured from day one.
 Simply run the command and answer the prompts:
 
 ```bash
-npx create-frontend-app my-app
+npx create-frontend-server my-app
 ```
 
 **You'll be asked about:**
@@ -210,13 +210,13 @@ npx create-frontend-app my-app
 Skip all questions with a template:
 
 ```bash
-npx create-frontend-app my-app --template <template-name>
+npx create-frontend-server my-app --template <template-name>
 ```
 
 ### 🔧 Command Line Options
 
 ```bash
-create-frontend-app [project-name] [options]
+create-frontend-server [project-name] [options]
 ```
 
 **Available Options:**
@@ -233,20 +233,20 @@ create-frontend-app [project-name] [options]
 
 ```bash
 # Use template + skip git
-npx create-frontend-app my-app --template minimal --skip-git
+npx create-frontend-server my-app --template minimal --skip-git
 
 # Custom name + skip install (install manually later)
-npx create-frontend-app cool-project --skip-install
+npx create-frontend-server cool-project --skip-install
 
 # Get help
-npx create-frontend-app --help
+npx create-frontend-server --help
 ```
 
 ## 🆚 Comparison
 
 ### vs Create React App
 
-| Feature | create-frontend-app | Create React App |
+| Feature | create-frontend-server | Create React App |
 |---------|-------------------|------------------|
 | Build Tool | Vite (⚡ fast) | Webpack (slower) |
 | Frameworks | 7 supported | React only |
@@ -259,7 +259,7 @@ npx create-frontend-app --help
 
 ### vs Manual Setup
 
-| Task | Manual | create-frontend-app |
+| Task | Manual | create-frontend-server |
 |------|--------|-------------------|
 | Initial setup | 2-4 hours | < 2 minutes |
 | Config files | Write yourself | Auto-generated |
@@ -347,7 +347,7 @@ my-app/
 <summary><b>🛍️ E-commerce Product Page</b></summary>
 
 ```bash
-npx create-frontend-app shop-frontend --template react-shadcn
+npx create-frontend-server shop-frontend --template react-shadcn
 cd shop-frontend
 npm run dev
 ```
@@ -368,7 +368,7 @@ npm run dev
 <summary><b>📱 SaaS Landing Page</b></summary>
 
 ```bash
-npx create-frontend-app saas-landing --template nextjs-full
+npx create-frontend-server saas-landing --template nextjs-full
 cd saas-landing
 npm run dev
 ```
@@ -389,7 +389,7 @@ npm run dev
 <summary><b>📊 Admin Dashboard</b></summary>
 
 ```bash
-npx create-frontend-app admin-panel --template enterprise
+npx create-frontend-server admin-panel --template enterprise
 cd admin-panel
 npm run dev
 ```
@@ -412,7 +412,7 @@ npm run dev
 <summary><b>🎨 Portfolio Website</b></summary>
 
 ```bash
-npx create-frontend-app portfolio
+npx create-frontend-server portfolio
 # Choose: React (Vite), TypeScript: Yes, CSS: Tailwind, UI: shadcn/ui
 cd portfolio
 npm run dev
@@ -435,7 +435,7 @@ npm run dev
 <summary><b>🎮 Interactive Web App</b></summary>
 
 ```bash
-npx create-frontend-app game-app
+npx create-frontend-server game-app
 # Choose: React (Vite), TypeScript: Yes, CSS: Styled Components
 cd game-app
 npm run dev
@@ -459,7 +459,7 @@ npm run dev
 
 ```bash
 # 1. Create project
-npx create-frontend-app my-blog --template nextjs-full
+npx create-frontend-server my-blog --template nextjs-full
 
 # 2. Navigate to project
 cd my-blog
@@ -479,7 +479,7 @@ npm run dev
 
 ```bash
 # 1. Create project with Vue
-npx create-frontend-app dashboard --template vue-ts
+npx create-frontend-server dashboard --template vue-ts
 
 # 2. Install chart library
 cd dashboard
@@ -500,7 +500,7 @@ npm run dev
 
 ```bash
 # Create new project with Vite (much faster!)
-npx create-frontend-app my-app --template react-ts-tailwind
+npx create-frontend-server my-app --template react-ts-tailwind
 
 # Copy your source files
 cp -r old-project/src/* my-app/src/
@@ -777,12 +777,12 @@ npx npm-check-updates -u  # Update to latest major versions
 ### Command not found
 
 ```bash
-# If you get "create-frontend-app: command not found"
+# If you get "create-frontend-server: command not found"
 # Make sure you're using npx:
-npx create-frontend-app my-app
+npx create-frontend-server my-app
 
 # Or install globally:
-npm install -g create-frontend-app
+npm install -g create-frontend-server
 ```
 
 ### Permission errors
@@ -802,7 +802,7 @@ git --version
 
 # If not installed, install git first
 # Or skip git initialization:
-npx create-frontend-app my-app --skip-git
+npx create-frontend-server my-app --skip-git
 ```
 
 ### Dependencies installation fails
@@ -810,10 +810,10 @@ npx create-frontend-app my-app --skip-git
 ```bash
 # Clear npm cache and try again:
 npm cache clean --force
-npx create-frontend-app my-app
+npx create-frontend-server my-app
 
 # Or skip installation and do it manually:
-npx create-frontend-app my-app --skip-install
+npx create-frontend-server my-app --skip-install
 cd my-app
 npm install
 ```
@@ -839,7 +839,7 @@ npm install
 
 1. Make sure you're using Node.js 16 or higher: `node --version`
 2. Update npm to the latest version: `npm install -g npm@latest`
-3. Try running with verbose logging: `npx create-frontend-app my-app --verbose`
+3. Try running with verbose logging: `npx create-frontend-server my-app --verbose`
 4. Check our [GitHub Issues](https://github.com/gandharrdotexe/create-frontend-app/issues)
 5. Create a new issue with your error message and system info
 </details>
@@ -919,7 +919,7 @@ Want to help? Check our [Contributing Guide](#-contributing)!
 <div align="center">
 
 ![GitHub stars](https://img.shields.io/github/stars/gandharrdotexe/create-frontend-app?style=social)
-![npm downloads](https://img.shields.io/npm/dm/create-frontend-app?style=flat-square)
+![npm downloads](https://img.shields.io/npm/dm/create-frontend-server?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/gandharrdotexe/create-frontend-app?style=flat-square)
 
 </div>
@@ -936,7 +936,7 @@ This project is made possible by our amazing sponsors and contributors!
 
 **Made with ❤️ by developers, for developers**
 
-[⬆ Back to Top](#create-frontend-app)
+[⬆ Back to Top](#create-frontend-server)
 
 *Happy coding! 🚀*
 
